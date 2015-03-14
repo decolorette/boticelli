@@ -1,0 +1,14 @@
+v.0.0.1 Basic One Page Layout
+
+@todo
+-- make header responsive
+-- insert bootstrap css and js and glyphicons local
+-- transform jumbotron into a carousel
+-- make about section : photos
+-- make modal list of pictures
+-- add  a google map with pin
+-- make a contact form 
+-- make a sidebar
+-- add social network links
+-- add bootstrap library as dependency package
+
