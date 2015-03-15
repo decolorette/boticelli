@@ -1,5 +1,17 @@
-footer {
+body {
+	font-size: 160%;
+}
 
+.jumbo-stage {
+	background: url("../images/background.jpg");
+	padding: 10%;
+}
+
+.row {
+	padding: 10%;
+}
+
+footer {
 	width: 100%;
 	height: 60px;
 	background-color: #eee;
