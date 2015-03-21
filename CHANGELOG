@@ -1,9 +1,10 @@
 v.0.0.1 Basic One Page Layout
 
 @todo
--- make header responsive
--- insert bootstrap css and js and glyphicons local
--- transform jumbotron into a carousel
+-- make header responsive  								DONE
+-- insert bootstrap css and js and glyphicons local 	DONE
+-- download jquery.js in js folder
+-- make sections accesible from menu
 -- make about section : photos
 -- make modal list of pictures
 -- add  a google map with pin
