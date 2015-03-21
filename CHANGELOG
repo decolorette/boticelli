@@ -3,9 +3,10 @@ v.0.0.1 Basic One Page Layout
 @todo
 -- make header responsive  								DONE
 -- insert bootstrap css and js and glyphicons local 	DONE
--- download jquery.js in js folder
--- make sections accesible from menu
--- make about section : photos
+-- download jquery.js in js folder						DONE
+-- make sections accesible from menu					DONE
+-- make about section : photos							DONE
+-- add google fonts
 -- make modal list of pictures
 -- add  a google map with pin
 -- make a contact form 
