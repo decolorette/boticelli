@@ -2,9 +2,11 @@ body {
 	font-size: 160%;
 	font-family: 'Montserrat', sans-serif;
 }
-
+.jumbotron {
+	color: black;
+}
 .section-background {
-	background: url("../images/background.jpg");
+	background: url("../images/background.jpg") -130px -360px;
 	padding: 10%;
 }
 
@@ -18,11 +20,11 @@ footer {
 	background-color: #eee;
 }
 img.about {
-  width:200px;
-  height:200px;
+  width:150px;
+  height:150px;
 }
 
-/* Back to top button 
+/* Back to top button
 -------------------------------------------------------------------------*/
 #back-top {
 	position: fixed;
