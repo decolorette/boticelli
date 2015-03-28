@@ -3,8 +3,26 @@
 
   // Methods.
   // ------------------------------
+    APP.backTop = function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $('#back-top').fadeIn();
+            } else {
+                $('#back-top').fadeOut();
+            }
+        });
 
-  APP.googleMapsInitialize = function (canvas, latitude, longitude, zoom_factor, info) {
+        // scroll body to 0px on click
+        $('#back-top a').click(function () {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
+
+    }
+
+    APP.googleMapsInitialize = function (canvas, latitude, longitude, zoom_factor, info) {
         var map_canvas = document.getElementById(canvas);
         
         var map_options = {
@@ -26,11 +44,13 @@
         var infowindow = new google.maps.InfoWindow({
             content: info
         });
-        map.disableScrollWheelZoom()
+
         infowindow.open(map,marker);
     }
 
     // Method Calls.
     // ------------------------------
+    $("#back-top").hide();
+    APP.backTop();
     APP.googleMapsInitialize(canvas = 'mapCanvas', latitude = 48.842077, longitude = 2.321857, zoom_factor = 17, info = "Your address here.");
 })(jQuery);
