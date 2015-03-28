@@ -1,2 +1,2 @@
 # boticelli
-A bootstrap layout
+A demonstrative project. Not indended for production use.

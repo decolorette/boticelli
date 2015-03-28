@@ -1,16 +1,17 @@
-v.0.0.1 Basic One Page Layout
+v.0.0.2 Boticelli
+
+-- Responsive header
+-- Local Bootsrap resources and libraries
+-- Local jquery.min.js
+-- Functional menu
+-- About section : photos
+-- Google fonts
+-- Make a contact form
 
 @todo
--- make header responsive  								DONE
--- insert bootstrap css and js and glyphicons local 	DONE
--- download jquery.js in js folder						DONE
--- make sections accesible from menu					DONE
--- make about section : photos							DONE
--- add google fonts										DONE
+
 -- make modal list of pictures
 -- add  a google map with pin
--- make a contact form 
+-- transparencey for navbar
 -- make a sidebar
 -- add social network links
--- add bootstrap library as dependency package
-
