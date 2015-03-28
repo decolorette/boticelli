@@ -8,8 +8,8 @@ body {
 	padding: 10%;
 }
 
-.row {
-	padding: 10%;
+#services, #about, #contact {
+	padding: 4% 0;
 }
 
 footer {
