@@ -1,0 +1,29 @@
+{
+  "name": "boticelli",
+  "version": "0.0.1",
+  "homepage": "https://github.com/decolorette/boticelli",
+  "authors": [
+    "Ovi Farcas <ovidiu@jazio.net>"
+  ],
+  "description": "Backbone generic template",
+  "main": "layout.html",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "bootstrap",
+    "templates"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "libraries/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}
