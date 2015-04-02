@@ -7,13 +7,22 @@ v.0.0.2 Boticelli
 -- About section : photos
 -- Google fonts
 -- Make a contact form
+-- add  a google map with pin
+-- back to top
+
+Tools
+-- install ruby and sass
 
 @todo
--- add  a google map with pin
+
+-- add grunt as composer dependency
+-- edit .gitignore
+-- grunt plugins
+-- bower -- to manage dependencies for bootstrap, fontawesome, jquery
 -- split css into groups -- themes
--- back to top
 -- make modal list of pictures
--- use local fonts -- see voltage
+-- use local fonts -- see voltagie
+-- start using awesome fonts
 -- transparencey for navbar
 -- make a sidebar
 -- add social network links -- see /* http://fontfabric.com/social-media-icons-pack/ */ Socialico Socialico Plus
