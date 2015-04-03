@@ -16,8 +16,9 @@ Tools
 @todo
 
 -- add grunt as composer dependency
+-- configure grunt task runner
 -- edit .gitignore
--- grunt plugins
+-- choose and configure grunt plugins
 -- bower -- to manage dependencies for bootstrap, fontawesome, jquery
 -- split css into groups -- themes
 -- make modal list of pictures
@@ -26,3 +27,4 @@ Tools
 -- transparencey for navbar
 -- make a sidebar
 -- add social network links -- see /* http://fontfabric.com/social-media-icons-pack/ */ Socialico Socialico Plus
+-- Consider modernizr
