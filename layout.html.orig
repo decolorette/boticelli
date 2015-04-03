@@ -233,6 +233,9 @@
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<<<<<<< HEAD
+    <script type="text/javascript" src="js/boticelli.min.js"></script>
+=======
     <script type="text/javascript" src="js/jquery.prettyPhoto.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
     <script type="text/javascript" charset="utf-8">
@@ -240,5 +243,6 @@
     $("a[rel^='prettyPhoto']").prettyPhoto({overlay_gallery: false});
   });
 </script>
+>>>>>>> 0ed2bf605e181f820e41f8dab8d01e38147d3d20
 </body>
 </html>
