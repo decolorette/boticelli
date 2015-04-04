@@ -3,6 +3,18 @@
 
   // Methods.
   // ------------------------------
+        /**
+     * Menu smooth scrolling
+     * @return {[type]} [description]
+     */
+     APP.smoothScroll = function (menu) {
+        $(menu).click(function(e) {
+            e.preventDefault();
+            $('html,body').scrollTo(this.hash, this.hash);
+        });
+
+    }
+
     APP.backTop = function () {
         $(window).scroll(function () {
             if ($(this).scrollTop() > 100) {
@@ -50,6 +62,10 @@
 
     // Method Calls.
     // ------------------------------
+    //runtime
+    APP.smoothScroll(menu = ".nav a");
+
+
     $("#back-top").hide();
     APP.backTop();
     APP.googleMapsInitialize(canvas = 'mapCanvas', latitude = 48.842077, longitude = 2.321857, zoom_factor = 17, info = "Your address here.");
