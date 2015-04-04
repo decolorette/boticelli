@@ -8,9 +8,10 @@ Features.
 -- Make a contact form
 -- add  a google map with pin
 -- back to top
+-- add a modal gallery
 
 Structure.
--- Local Bootsrap resources and libraries
+-- Local Bootsrap resources and libraries // bower
 -- Local jquery.min.js
 -- move google fonts to sass
 -- bower -- to manage dependencies for bootstrap, fontawesome, jquery
@@ -18,18 +19,20 @@ Structure.
 
 Integrated Tools.
 -- install ruby and sass
-
-@todo
-
 -- add grunt as composer dependency
 -- configure grunt task runner
 -- choose and configure grunt plugins
--- split css into groups -- themes
 
--- make modal list of pictures
--- use local fonts -- see voltagie
+@todo
+-- move prettyPhoto() to js
+-- fix smooth menu scroll
+-- add a banner
+-- split scss in smaller files.
+-- split css into groups -- themes // 
+-- set a grunt task (copy) to copy bootstrap file from assets/libraries to js.
+-- use local fonts -- see voltage
 -- start using awesome fonts
 -- transparencey for navbar
--- make a sidebar
+-- make a sidebar -- offside
 -- add social network links -- see /* http://fontfabric.com/social-media-icons-pack/ */ Socialico Socialico Plus
 -- Consider modernizr
