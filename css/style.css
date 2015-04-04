@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:300,400,600,700);
 body {
-  font-size: 160%;
-  font-family: 'Montserrat', sans-serif; }
+  font-size: 14px;
+  font-family: "Montserrat", Tahoma, Arial, sans-serif; }
 
 .section-background {
   background: url("../images/background.jpg") -130px -360px;

@@ -1,4 +1,6 @@
+.idea
+.sass-cache
 assets/.sass-cache
 assets/libraries/
-.sass-cache
 vendor/
+node_modules

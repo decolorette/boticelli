@@ -1,8 +1,7 @@
 v.0.0.2 Boticelli
 
+Features.
 -- Responsive header
--- Local Bootsrap resources and libraries
--- Local jquery.min.js
 -- Functional menu
 -- About section : photos
 -- Google fonts
@@ -10,17 +9,23 @@ v.0.0.2 Boticelli
 -- add  a google map with pin
 -- back to top
 
-Tools
+Structure.
+-- Local Bootsrap resources and libraries
+-- Local jquery.min.js
+-- move google fonts to sass
+-- bower -- to manage dependencies for bootstrap, fontawesome, jquery
+-- edit .gitignore
+
+Integrated Tools.
 -- install ruby and sass
 
 @todo
 
 -- add grunt as composer dependency
 -- configure grunt task runner
--- edit .gitignore
 -- choose and configure grunt plugins
--- bower -- to manage dependencies for bootstrap, fontawesome, jquery
 -- split css into groups -- themes
+
 -- make modal list of pictures
 -- use local fonts -- see voltagie
 -- start using awesome fonts
