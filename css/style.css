@@ -3,12 +3,15 @@ body {
   font-size: 14px;
   font-family: "Montserrat", Tahoma, Arial, sans-serif; }
 
-.section-background {
-  background: url("../images/background.jpg") -130px -360px;
-  padding: 10%; }
+h1 {
+  font-size: 36px !important;
+  color: #255625 !important; }
 
-#services, #about, #contact {
-  padding: 4% 0; }
+.section-background {
+  background: url("../images/background.jpg") -130px -360px; }
+
+#jumbotron, #services, #about, #gallery, #contact {
+  padding: 10% 0; }
 
 footer {
   width: 100%;

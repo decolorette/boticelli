@@ -12,7 +12,10 @@
             e.preventDefault();
             $('html,body').scrollTo(this.hash, this.hash);
         });
+    }
 
+    APP.modalPrettyPhoto = function (options) {
+        $("a[rel^='prettyPhoto']").prettyPhoto(options);
     }
 
     APP.backTop = function () {
@@ -53,6 +56,7 @@
             position: new google.maps.LatLng(latitude, longitude), 
             map: map
         });
+
         var infowindow = new google.maps.InfoWindow({
             content: info
         });
@@ -62,11 +66,12 @@
 
     // Method Calls.
     // ------------------------------
-    //runtime
-    APP.smoothScroll(menu = ".nav a");
+    APP.modalPrettyPhoto({overlay_gallery: false});
 
+    APP.smoothScroll(menu = ".nav a");
 
     $("#back-top").hide();
     APP.backTop();
+
     APP.googleMapsInitialize(canvas = 'mapCanvas', latitude = 48.842077, longitude = 2.321857, zoom_factor = 17, info = "Your address here.");
 })(jQuery);

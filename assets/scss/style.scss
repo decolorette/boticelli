@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:300,400,600,700);
+$fa-font-path:        "../assets/libraries/fontawesome/fonts/" !default;
 
 // Colors.
 $primary :        #449D44;
@@ -86,18 +87,22 @@ $borderDark : 1px solid $gray-dark;
   zoom: 1;
 }
 
+// Styles.
 body {
   font-size: $base;
   font-family: $font-stack;
 }
 
+h1 {
+  font-size: $h1 !important;
+  color: $primary_dark !important;
+}
 .section-background {
   background: url("../images/background.jpg") -130px -360px;
-  padding: 10%;
 }
 
-#services, #about, #contact {
-  padding: 4% 0;
+#jumbotron, #services, #about, #gallery, #contact {
+  padding: 10% 0;
 }
 
 footer {
