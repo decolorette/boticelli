@@ -4,14 +4,36 @@ body {
   font-family: "Montserrat", Tahoma, Arial, sans-serif; }
 
 h1 {
-  font-size: 36px !important;
+  font-size: 36px !important; }
+
+a:link {
+  color: #449D44 !important; }
+
+a:hover {
   color: #255625 !important; }
 
 .section-background {
-  background: url("../images/background.jpg") -130px -360px; }
+  background: url("../images/background.jpg") 0 0; }
 
 #jumbotron, #services, #about, #gallery, #contact {
   padding: 10% 0; }
+
+.navbar-brand {
+  color: white !important; }
+
+.social-nav {
+  margin: 17px 0 4px 10px;
+  border-left: 1px solid white;
+  padding-left: 15px;
+  font-size: 60%; }
+  .social-nav li {
+    padding: 0 10px; }
+  .social-nav a {
+    color: white; }
+
+.contact-box .item ul li {
+  display: inline;
+  list-style-type: none; }
 
 footer {
   width: 100%;
