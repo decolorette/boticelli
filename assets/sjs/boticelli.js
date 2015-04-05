@@ -12,7 +12,10 @@
             e.preventDefault();
             $('html,body').scrollTo(this.hash, this.hash);
         });
+    }
 
+    APP.modalPrettyPhoto = function (options) {
+        $("a[rel^='prettyPhoto']").prettyPhoto(options);
     }
 
     APP.backTop = function () {
@@ -53,6 +56,7 @@
             position: new google.maps.LatLng(latitude, longitude), 
             map: map
         });
+
         var infowindow = new google.maps.InfoWindow({
             content: info
         });
@@ -62,7 +66,7 @@
 
     // Method Calls.
     // ------------------------------
-    //runtime
+    APP.modalPrettyPhoto({overlay_gallery: false});
     APP.smoothScroll(menu = ".nav a");
 
 

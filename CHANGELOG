@@ -1,3 +1,4 @@
+
 v.0.0.2 Boticelli
 
 Features.
@@ -9,6 +10,7 @@ Features.
 -- add  a google map with pin
 -- back to top
 -- add a modal gallery
+-- smooth menu scroll
 
 Structure.
 -- Local Bootsrap resources and libraries // bower
@@ -20,19 +22,22 @@ Structure.
 Integrated Tools.
 -- install ruby and sass
 -- add grunt as composer dependency
--- configure grunt task runner
+-- configure grunt task runner -- set a grunt task  to copy bootstrap file from assets/libraries to js.
 -- choose and configure grunt plugins
 
 @todo
 -- move prettyPhoto() to js
--- fix smooth menu scroll
--- add a banner
+-- add new tabs for services
+-- style about.
+-- add a carousell
+-- add a testimony like in Bondy
 -- split scss in smaller files.
--- split css into groups -- themes // 
--- set a grunt task (copy) to copy bootstrap file from assets/libraries to js.
+-- split css into groups -- themes //
+-- style form.
+-- add twitter/f section like on bondy
 -- use local fonts -- see voltage
 -- start using awesome fonts
 -- transparencey for navbar
 -- make a sidebar -- offside
--- add social network links -- see /* http://fontfabric.com/social-media-icons-pack/ */ Socialico Socialico Plus
+-- add social network links like in Bondy -- see /* http://fontfabric.com/social-media-icons-pack/ */ Socialico Socialico Plus
 -- Consider modernizr

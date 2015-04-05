@@ -86,18 +86,22 @@ $borderDark : 1px solid $gray-dark;
   zoom: 1;
 }
 
+// Styles.
 body {
   font-size: $base;
   font-family: $font-stack;
 }
 
+h1 {
+  font-size: $h1 !important;
+  color: $primary_dark !important;
+}
 .section-background {
   background: url("../images/background.jpg") -130px -360px;
-  padding: 10%;
 }
 
-#services, #about, #contact {
-  padding: 4% 0;
+#services, #about, #gallery, #contact {
+  padding: 10% 0;
 }
 
 footer {
