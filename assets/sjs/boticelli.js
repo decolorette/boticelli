@@ -67,10 +67,11 @@
     // Method Calls.
     // ------------------------------
     APP.modalPrettyPhoto({overlay_gallery: false});
-    APP.smoothScroll(menu = ".nav a");
 
+    APP.smoothScroll(menu = ".nav a");
 
     $("#back-top").hide();
     APP.backTop();
+
     APP.googleMapsInitialize(canvas = 'mapCanvas', latitude = 48.842077, longitude = 2.321857, zoom_factor = 17, info = "Your address here.");
 })(jQuery);

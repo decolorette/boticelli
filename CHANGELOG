@@ -1,4 +1,3 @@
-
 v.0.0.2 Boticelli
 
 Features.
@@ -18,6 +17,8 @@ Structure.
 -- move google fonts to sass
 -- bower -- to manage dependencies for bootstrap, fontawesome, jquery
 -- edit .gitignore
+-- move prettyPhoto() to js
+-- start using awesome fonts: use CDN remote install
 
 Integrated Tools.
 -- install ruby and sass
@@ -26,18 +27,18 @@ Integrated Tools.
 -- choose and configure grunt plugins
 
 @todo
--- move prettyPhoto() to js
 -- add new tabs for services
 -- style about.
--- add a carousell
+-- add a carousel // use flexslider fonts for handlers
 -- add a testimony like in Bondy
 -- split scss in smaller files.
 -- split css into groups -- themes //
 -- style form.
 -- add twitter/f section like on bondy
 -- use local fonts -- see voltage
--- start using awesome fonts
--- transparencey for navbar
+-- Create a grunt task to copy fontawesome.min.css and fonts locally. Use fontawesome locally.
+
+-- transparency for navbar
 -- make a sidebar -- offside
 -- add social network links like in Bondy -- see /* http://fontfabric.com/social-media-icons-pack/ */ Socialico Socialico Plus
--- Consider modernizr
+-- Consider modernizr.js

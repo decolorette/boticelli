@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:300,400,600,700);
+$fa-font-path:        "../assets/libraries/fontawesome/fonts/" !default;
 
 // Colors.
 $primary :        #449D44;
@@ -100,7 +101,7 @@ h1 {
   background: url("../images/background.jpg") -130px -360px;
 }
 
-#services, #about, #gallery, #contact {
+#jumbotron, #services, #about, #gallery, #contact {
   padding: 10% 0;
 }
 
