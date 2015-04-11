@@ -5,20 +5,21 @@ Features.
 -- Functional menu
 -- About section : photos
 -- Google fonts
--- Make a contact form
--- add  a google map with pin
--- back to top
--- add a modal gallery
--- smooth menu scroll
+-- Contact form
+-- Google map with pin and description
+-- Back to top button
+-- Modal photo gallery
+-- Smooth menu scroll
 
 Structure.
 -- Local Bootsrap resources and libraries // bower
 -- Local jquery.min.js
 -- move google fonts to sass
--- bower -- to manage dependencies for bootstrap, fontawesome, jquery
+-- Bower -- to manage dependencies for bootstrap, fontawesome, jquery
 -- edit .gitignore
 -- move prettyPhoto() to js
 -- start using awesome fonts: use CDN remote install
+-- split scss in smaller files.
 
 Integrated Tools.
 -- install ruby and sass
@@ -31,8 +32,8 @@ Integrated Tools.
 -- style about.
 -- add a carousel // use flexslider fonts for handlers
 -- add a testimony like in Bondy
--- split scss in smaller files.
--- split css into groups -- themes //
+
+-- split css into groups -- themes // disputable
 -- style form.
 -- add twitter/f section like on bondy
 -- use local fonts -- see voltage

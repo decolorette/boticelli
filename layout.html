@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Boticelli Template</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
@@ -69,7 +69,7 @@
     <!--
       Carousel.
     /////////////////////////////////////////-->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div id="carousel" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -293,7 +293,11 @@
             </p>
         </div>
            <p id="back-top">
-    <a href="#top"><span class="glyphicon glyphicon-menu-up"></span></a>
+               <a href="#top" class="glyphicon glyphicon-menu-up">
+                   <svg viewBox="0 0 100 100" class="icon  icon-up">
+                       <use xlink:href="#icon-up">Up</use>
+                   </svg>
+               </a>
   </p>
     </footer>
 
