@@ -1,0 +1,27 @@
+#jumbotron, #services, #about, #gallery, #contact {
+    padding: 10% 0;
+}
+
+.social-nav {
+    margin: 17px 0 4px 10px;
+    border-left: 1px solid white;
+    padding-left: 15px;
+    font-size: 60%;
+    li {
+        padding: 0 10px;
+    }
+    a {
+        color: white;
+    }
+}
+
+.contact-box {
+    .item {
+        ul {
+            li {
+                display: inline;
+                list-style-type: none;
+            }
+        }
+    }
+}

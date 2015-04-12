@@ -1,4 +1,4 @@
-v.0.0.2 Boticelli
+v.0.0.3 Boticelli
 
 Features.
 -- Responsive header
@@ -43,3 +43,4 @@ Integrated Tools.
 -- make a sidebar -- offside
 -- add social network links like in Bondy -- see /* http://fontfabric.com/social-media-icons-pack/ */ Socialico Socialico Plus
 -- Consider modernizr.js
+-- evaluate Jade
