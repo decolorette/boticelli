@@ -1,0 +1,24 @@
+/* CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: $carousel-height;
+  .item {
+  height: $carousel-height;
+  background-color: $gray-darker;
+}
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: $carousel-height;
+}

@@ -74,4 +74,5 @@
     APP.backTop();
 
     APP.googleMapsInitialize(canvas = 'mapCanvas', latitude = 48.842077, longitude = 2.321857, zoom_factor = 17, info = "Your address here.");
+    $('.carousel').carousel();
 })(jQuery);
