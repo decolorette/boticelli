@@ -1,3 +1,13 @@
+v.0.0.2 Boticelli
+-- Carousel // use flexslider fonts for handlers
+-- Convert <div id rows to 
+     section id
+        .container
+           .row
+             col-md-x
+-- Fix bug with horizontal scroll
+
+
 v.0.0.3 Boticelli
 
 Features.
@@ -30,7 +40,6 @@ Integrated Tools.
 @todo
 -- add new tabs for services
 -- style about.
--- add a carousel // use flexslider fonts for handlers
 -- add a testimony like in Bondy
 
 -- split css into groups -- themes // disputable
