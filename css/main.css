@@ -7,7 +7,20 @@ h1 {
   font-size: 36px !important; }
 
 #jumbotron, #services, #about, #gallery, #contact {
-  padding: 10% 0; }
+  padding: 10% 0 0 0; }
+
+#location {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 500px; }
+  #location .map {
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 500px; }
 
 .social-nav {
   margin: 17px 0 4px 10px;
@@ -17,7 +30,8 @@ h1 {
   .social-nav li {
     padding: 0 10px; }
   .social-nav a {
-    color: white; }
+    color: white;
+    padding-right: 5px; }
 
 .contact-box .item ul li {
   display: inline;
