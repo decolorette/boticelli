@@ -1,11 +1,31 @@
-a:link {
+a {
   color:$primary !important;
-}
-
-a:hover{
-  color:$primary-dark !important;
+  &:link {color:$primary !important;}
+  &:hover {color:$primary-dark !important;}
+  &:active {color:$primary-dark !important;}
+  &:visited {color:$primary-dark !important;}
 }
 
 .navbar-brand {
   color: white !important;
+}
+
+#back-top {
+	a {
+	color: $primary;
+    background: transparent;
+	}
+	a:hover {
+    color: $primary-light;
+    }
+}
+
+.btn-default {
+   background-color: transparent;
+   border-color: $primary-light;
+   color: $primary;
+   &:hover {
+   	background-color:$primary-light;
+   	border-color: $primary-dark;
+   	color: white;}
 }

@@ -7,7 +7,7 @@ h1 {
   font-size: 36px !important; }
 
 #jumbotron, #services, #about, #gallery, #contact {
-  padding: 10% 0 0 0; }
+  padding: 10% 0; }
 
 #location {
   position: relative;
@@ -37,12 +37,16 @@ h1 {
   display: inline;
   list-style-type: none; }
 
-.btn-primary {
-  background-color: #449D44;
-  border-color: #7fc87f; }
-
 /* Back to top button
 ///////////////////////////////////////////*/
+.btn-default {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  border-width: 3px; }
+
 #back-top {
   position: fixed;
   bottom: 10px;
@@ -54,11 +58,7 @@ h1 {
     text-align: center;
     font-size: 200%;
     text-decoration: none;
-    color: #eeeeee;
-    background: transparent;
     border: .15em solid; }
-  #back-top a:hover {
-    color: #7fc87f; }
 
 .carousel-inner img {
   margin: auto; }
@@ -69,6 +69,35 @@ img.about {
 
 .section-background {
   background: url("../images/background.jpg") 0 0; }
+
+a {
+  color: #449D44 !important; }
+  a:link {
+    color: #449D44 !important; }
+  a:hover {
+    color: #255625 !important; }
+  a:active {
+    color: #255625 !important; }
+  a:visited {
+    color: #255625 !important; }
+
+.navbar-brand {
+  color: white !important; }
+
+#back-top a {
+  color: #449D44;
+  background: transparent; }
+#back-top a:hover {
+  color: #7fc87f; }
+
+.btn-default {
+  background-color: transparent;
+  border-color: #7fc87f;
+  color: #449D44; }
+  .btn-default:hover {
+    background-color: #7fc87f;
+    border-color: #255625;
+    color: white; }
 
 /* CAROUSEL
 -------------------------------------------------- */
